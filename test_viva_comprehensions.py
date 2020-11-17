@@ -11,7 +11,6 @@ class VivaComprehensionsTest(unittest.TestCase):
             ([0, 2, 4, 6, 8, 10, 12, 14], (0, 15, vc.Parity.EVEN)),
             ([77, 79, 81], (77, 82, vc.Parity.ODD)),
             ([150, 152, 154, 156], (150, 157, vc.Parity.EVEN))
-
         ]
 
         for expected, params in test_cases:
